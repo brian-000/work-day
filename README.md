@@ -8,4 +8,4 @@
 
 <h2>Screenshot of Website</h2>
 
-<img src="work-day/assets/images/_Users_x_Desktop_bootcamp_week-5_challenge-5_work-day_index.html.png">
+<img src="assets/images/_Users_x_Desktop_bootcamp_week-5_challenge-5_work-day_index.html.png">
