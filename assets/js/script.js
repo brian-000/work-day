@@ -43,7 +43,11 @@ var d = moment().format();
 d = moment().format("dddd, MMMM Do, YYYY");
 //var currentHour = d.getHours();
 var hours = time.getHours();
+
+
+
 var storedNames = JSON.parse(localStorage.getItem("array"));
+if(storedNames != null){
 textArea9.value=storedNames[0];
 textArea10.value=storedNames[1];
 textArea11.value=storedNames[2];
@@ -54,6 +58,8 @@ textArea3.value=storedNames[6];
 textArea4.value=storedNames[7];
 textArea5.value=storedNames[8];
 console.log(storedNames);
+}
+
 currentDay.textContent = d;
 jumbotron.appendChild(currentDay);
 // //timeBlock.addClass("time-block");
